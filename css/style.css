@@ -1,0 +1,48 @@
+header {
+    background-color: #eb4a00;
+}
+body{
+    background: rgb(0, 0, 0);
+    /* background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center; */
+}
+      
+/* body{
+    color: #413535; */
+  /* background: radial-gradient(circle,rgba(15, 15, 15, 1) 0%, rgba(255, 255, 255, 1) 50%, rgba(230, 227, 223, 1) 100%); */
+        /* background: #050505;
+  background: radial-gradient(circle,rgba(5, 5, 5, 1) 0%, rgba(233, 237, 242, 1) 100%); */
+  /* background: #050505;
+  background: linear-gradient(153deg,rgba(5, 5, 5, 1) 0%, rgba(233, 237, 242, 1) 100%); */
+  /* background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  padding: 200px 15px; */
+    /* } */
+
+.get-tickets-container{
+    background-image: url('/images/photo-1647331460279-0076ad6c1e7b.avif');
+    padding-bottom: 30px;
+    background-size:50%;
+    background-repeat: no-repeat;
+    background-position:right;
+    width: 100%;
+    background-color: #000000f5;
+    color: aliceblue;
+    padding: 20px;
+}
+
+.btn-branding{
+    padding: 10px;
+    background-color: #eb4a00;
+    border-radius: 15px;
+    text-decoration: none;
+    margin:0 auto;
+
+}
+.count-down{
+    background: radial-gradient(circle,rgb(255, 61, 2) 0%, rgb(188, 95, 241) 50%, rgb(255, 4, 150) 100%);
+    padding: 10px;
+}
+

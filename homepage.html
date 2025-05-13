@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Pit</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
     <script src="script.js"></script>
     <link
     href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css"
@@ -16,55 +16,68 @@
   integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" 
   crossorigin="anonymous"></script>
 </head>
-<style>
-    header {
-  /* background-image: url('/images/premium_photo-1725527112218-434a7bb651d1.avif');
-  background-size: cover; 
-  /* padding: 200px 15px; */
-  /* background-position: center center; 
-  background-repeat: no-repeat; */ 
-  background-color: #eb4a00;
-    }
-    /* .get-tickets{
-        background-image: url('images/premium_photo-1725527112218-434a7bb651d1.avif');
-        /* position:fixed; */
-        /* background-repeat: no-repeat;
-        background-attachment: fixed; */
-        /* background-size: ; */
-        /* background-position: center center; */
-        
-        /* background-size: 100% 100%; */ 
-        /* max-width: 100%;
-        height: 20vh;
-        width: 100%; */
-        /* background-color:lightgray; 
-        background-image: linear-gradient( black , grey);  */
-      .get-tickets {
-        background-image: url('images/premium_photo-1725527112218-434a7bb651d1.avif');
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        background-position: center center;
-        background-size: cover; /* Ensures the image covers the entire area without distortion */
-        height: 20vh;
-        width: 100%;
-    }
-    h2{color: aliceblue; padding: 10px;}
-    body{
-      background: #0f0f0f;
-background: radial-gradient(circle,rgba(15, 15, 15, 1) 0%, rgba(255, 255, 255, 1) 50%, rgba(230, 227, 223, 1) 100%);
-      /* background: #050505;
-background: radial-gradient(circle,rgba(5, 5, 5, 1) 0%, rgba(233, 237, 242, 1) 100%); */
-/* background: #050505;
-background: linear-gradient(153deg,rgba(5, 5, 5, 1) 0%, rgba(233, 237, 242, 1) 100%); */
-background-size: cover;
-background-repeat: no-repeat;
-background-position: center center;
-padding: 200px 15px;
-    }
-</style>
+
+
 <body>
+
+    <header class="d-flex justify-content-around">
+        <h1>THE PIT</h1>
+        <nav class="nav-bar">
+          <div class="nav-links d-block justify-content-evenly">
+            <a href="about.html">about</a>
+            <a href="events.html">events</a>
+            <a href="shop.html">shop</a>
+            <a href="#">tickets</a>
+          </div>
+        </nav>
+    </header>
     
-    <nav
+    <div class="get-tickets-container">
+      <h5>
+        EXPERIENCE
+        <br>
+        THE THRILL OF
+        <br>
+      </h5>
+      <h2>RACING</h2>
+      <br>
+      <a class="btn-branding" href="#">Get Tickets</a>
+    </div> 
+
+    <div class="count-down text-center mt-3">
+      <span>next race starts in:</span>
+      <h3>03:17:46:12</h3>
+    </div>
+    
+    <div class="gallery-link mt-3">
+      <div class="row d-flex">
+        <div class="col-4"><img class="img-fluid" src="images/photo-1657201081221-b159ceaf5c2a.avif" alt=""></div>
+        <div class="col-4"><img class="img-fluid" src="images/premium_photo-1664304747572-1e9730f17cc4.avif" alt=""></div>
+        <div class="col-4"><img class="img-fluid" src="images/photo-1542351387-dde430deaaa7.avif" alt=""></div>
+      </div>
+
+      <div class="gallery-btn mt-5 text-center">
+        <a class="btn-branding" href="#">View Gallery</a>
+      </div>
+    </div>
+</body>
+</html>
+
+<!-- header-video {
+  align-items: center;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  left: 0;
+  overflow:
+hidden;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  #e10600;
+
+
+  <nav
       class="navbar navbar-expand-md bg-body-tertiary fixed-top"
       style="background-color: #eb4a00"
       data-bs-theme="light"
@@ -102,33 +115,5 @@ padding: 200px 15px;
         </div>
       </div>
     </nav>
-
-    <header>
-        <h1>THE PIT</h1>
-    </header>
-    
-    <div class="get-tickets">
-        <h2>
-            EXPERIENCE
-            <br>
-            THE THRILL OF
-            <br>
-            RACING
-        </h2>
-    </div>
-</body>
-</html>
-
-<!-- header-video {
-  align-items: center;
-  display: flex;
-  height: 100%;
-  justify-content: center;
-  left: 0;
-  overflow:
-hidden;
-  position: absolute;
-  top: 0;
-  width: 100%;
-  #e10600;
 } -->
+
