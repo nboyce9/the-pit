@@ -1,25 +1,19 @@
 header {
     background-color: #eb4a00;
 }
-body{
-    background: rgb(0, 0, 0);
-    /* background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center; */
-}
+
       
-/* body{
-    color: #413535; */
-  /* background: radial-gradient(circle,rgba(15, 15, 15, 1) 0%, rgba(255, 255, 255, 1) 50%, rgba(230, 227, 223, 1) 100%); */
+body{
+  background: radial-gradient(circle,rgba(15, 15, 15, 1) 0%, rgb(0, 0, 0) 50%, rgb(0, 0, 0) 100%);
         /* background: #050505;
   background: radial-gradient(circle,rgba(5, 5, 5, 1) 0%, rgba(233, 237, 242, 1) 100%); */
   /* background: #050505;
   background: linear-gradient(153deg,rgba(5, 5, 5, 1) 0%, rgba(233, 237, 242, 1) 100%); */
   /* background-size: cover;
   background-repeat: no-repeat;
-  background-position: center center;
-  padding: 200px 15px; */
-    /* } */
+  background-position: center center; */
+}
+
 
 .get-tickets-container{
     background-image: url('/images/photo-1647331460279-0076ad6c1e7b.avif');
@@ -31,6 +25,16 @@ body{
     background-color: #000000f5;
     color: aliceblue;
     padding: 20px;
+}
+.btn-branding-outline{
+    margin-top: 5px;
+    margin-left: 10px;
+    text-decoration: none;
+    color:aliceblue;
+    border-radius: 6px;
+    padding: 4px;
+    background-color: #000000f5;
+
 }
 
 .btn-branding{
