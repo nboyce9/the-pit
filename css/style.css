@@ -1,17 +1,13 @@
 header {
-    background-color: #eb4a00;
+    background-color: #fcfcfc;
+    color: #eb4a00;
+    position: sticky;
+    top: 0;
+    
 }
-
-      
+     
 body{
-  background: radial-gradient(circle,rgba(15, 15, 15, 1) 0%, rgb(0, 0, 0) 50%, rgb(0, 0, 0) 100%);
-        /* background: #050505;
-  background: radial-gradient(circle,rgba(5, 5, 5, 1) 0%, rgba(233, 237, 242, 1) 100%); */
-  /* background: #050505;
-  background: linear-gradient(153deg,rgba(5, 5, 5, 1) 0%, rgba(233, 237, 242, 1) 100%); */
-  /* background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center; */
+    background-color: white;
 }
 
 
@@ -26,13 +22,18 @@ body{
     color: aliceblue;
     padding: 20px;
 }
+.trans{
+    padding: 20px;
+    color: white;
+    background: linear-gradient(180deg,rgb(252, 250, 249)50%, rgb(18, 18, 19) 100%);
+}
 .btn-branding-outline{
     margin-top: 5px;
     margin-left: 10px;
     text-decoration: none;
     color:aliceblue;
     border-radius: 6px;
-    padding: 4px;
+    padding-left: 4px;
     background-color: #000000f5;
 
 }
@@ -49,4 +50,8 @@ body{
     background: radial-gradient(circle,rgb(255, 61, 2) 0%, rgb(188, 95, 241) 50%, rgb(255, 4, 150) 100%);
     padding: 10px;
 }
-
+img{
+    border-bottom-left-radius:9dvh;
+    border-top-right-radius: 4cm;
+    /* border-bottom:#eb4a00 solid; */
+}
