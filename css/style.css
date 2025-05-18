@@ -83,3 +83,23 @@ body{
 footer{
     border: 1px solid var(--pig-red);
 }
+.filler{
+    background: #ff9b9b;
+    margin-bottom: 50px;
+}
+/* .contact-container{
+    border-top:1px solid var(--sunray) ;
+} */
+.contact-container h5{
+    color:#ff9b9b;
+    font-weight: bolder;
+}
+.contact-container a{
+    padding: 10px;
+    font-size: 18px;
+    color:var(--sunray);
+    margin: 0 auto;
+    text-decoration: none;
+    transition: 5ms ease-in-out;
+    margin-top: 10px;
+}
