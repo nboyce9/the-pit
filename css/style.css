@@ -57,12 +57,27 @@ body{
 
 }
 .count-down{
-    background: radial-gradient(circle,rgb(255, 61, 2) 0%, rgb(188, 95, 241) 50%, rgb(255, 4, 150) 100%);
+    background: radial-gradient(circle,var(--fire-orange)0%, var(--secondary-color) 50%, var(--sunray) 100%);
     padding: 10px;
     margin-bottom:  200px;
 }
-img{
+.gallery-links h2{
+    margin-bottom: 70px;
+    text-align: center;
+}
+.social-links{
+    text-align: center;
+}
+.social-links a{
+    padding: 15px;
+    font-size: 28px;
+    color:#ff9b9b;
+    margin: 0 auto;
+    text-decoration: none;
+    transition: 5ms ease-in-out;
+}
+/* img{
     border-bottom-left-radius:9dvh;
     border-top-right-radius: 4cm;
-    /* border-bottom:#eb4a00 solid; */
-}
+    margin-bottom: 100px;
+} */
