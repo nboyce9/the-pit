@@ -162,3 +162,47 @@ footer{
     list-style: none;
     padding: 0;
 }
+
+.local-talent, .youth-empowerment, .vendor-support,
+.cultural-celebration, .charity-drives, .pink-pit
+{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color:var(--secondary-color);
+    padding: 50px;
+    opacity: 0.7;
+}
+
+.local-talent{
+    background-image: url(/images/photo-1657201082100-fce795a4f7c7.avif);
+}
+.youth-empowerment{
+    background-image: url(/images/photo-1618651931533-043456088d7b.avif);
+}
+.vendor-support{
+    background-image: url(/images/photo-1666350773137-cbc310aaf909.avif);
+}
+.cultural-celebration{
+    background-image: url(/images/photo-1685832641185-81e626484937.avif) ;
+}
+.charity-drives{
+    background-image: url(/images/premium_photo-1671482215421-360cbc885c0a.avif);
+}
+.pink-pit{
+    background-image: url(/images/premium_photo-1714618993157-a4292607ba30.avif);
+}
+
+.local-talent p, 
+.youth-empowerment p,
+.vendor-support p,
+.cultural-celebration p,
+.charity-drives p,
+.pink-pit p
+{
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    border-radius: 15px;
+    box-shadow: 0 5px 10px var(--sunray);
+    padding: 10px;
+}
