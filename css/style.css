@@ -142,5 +142,23 @@ footer{
     background-image: url(/images/premium_photo-1664304745123-36f04a51acb9.avif);
     background-repeat: no-repeat;
     background-size: cover;
-
+}
+.mission, .vision, .values{
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    padding: 20px;
+    margin-bottom: var(--section-spacing);
+    border-radius: 15px;
+    box-shadow: 0 10px 20px var(--sunray);
+}
+.mission h2, .vision h2, .values h2{
+    text-align: center;
+}
+.mission p, .vision p, .values p{
+    text-align: center;
+    font-size: 16px;
+}
+.values ul{
+    list-style: none;
+    padding: 0;
 }
