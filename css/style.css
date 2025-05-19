@@ -129,6 +129,9 @@ footer{
 
 
 /* about page */
+.about-section{
+    margin-bottom: var(--section-spacing);
+}
 .about-container{
     background-color: var(--secondary-color);
     color:var(--primary-color);
