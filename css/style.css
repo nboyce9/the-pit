@@ -55,6 +55,7 @@ body{
     border-radius: 15px;
     text-decoration: none;
     margin:0 auto;
+    /* box-shadow:inset 0 10px 20px #3a3838; */
 
 }
 .count-down{
@@ -75,7 +76,7 @@ body{
 .social-links a{
     padding: 15px;
     font-size: 28px;
-    color:#ff9b9b;
+    color:var(--sunray);
     margin: 0 auto;
     text-decoration: none;
     transition: 5ms ease-in-out;
@@ -102,7 +103,6 @@ footer{
     margin: 0 auto;
     text-decoration: none;
     transition: 5ms ease-in-out;
-    /* margin-top: 10px; */
 }
 .site-links{
     color: var(--primary-color);
@@ -125,4 +125,19 @@ footer{
     text-decoration: none;
     line-height: 2.5em;
     text-align: center;
+}
+
+
+/* about page */
+.about-container{
+    background-color: var(--secondary-color);
+    color:var(--primary-color);
+    padding: 50px;
+    border-bottom:1px solid var(--sunray) ;
+}
+.about-image{
+    background-image: url(/images/premium_photo-1664304745123-36f04a51acb9.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
