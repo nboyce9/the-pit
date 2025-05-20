@@ -1,2 +1,2 @@
 # the-pit
-A Website for a racing place?
+A website for "The Pit" a South African racing and street culture event.
