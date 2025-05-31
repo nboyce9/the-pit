@@ -23,39 +23,67 @@
     <div class="form">
     <form class="mt-5">
         <h6>You</h6>
-        <input type="text" name="name" id="user-name" placeholder="Enter your name" required>
-        <input type="text" name="surname" id="surname" placeholder="Enter your surname" required> <br>
-        <input type="email" name="email" id="email" placeholder="Enter your email address" required>
-        <input type="tel" name="" id="user-contact" placeholder="Enter your phone number" required><br>
-        <input type="date" name="" id="dob" placeholder="Enter your date of birth" required><br>
-        <label>Profile photo:<input type="file" name="user-photo" id="user-photo" required></label>
+        <div class="row">
+            <div class="col">
+              <input type="text" class="form-control" placeholder="Name" aria-label="First name" required>
+            </div>
+            <div class="col">
+              <input type="text" class="form-control" placeholder="Surname" aria-label="Last name" required>
+            </div>
+          </div>
+
+          <div class="mt-3 mb-3">
+            <input type="email" class="form-control" id="email" placeholder="name@example.com" required>
+          </div>
+
+          <div class="mb-3">
+            <input type="tel" class="form-control" id="contact" placeholder="0712345678" required>
+          </div>
+
+          <div class="mb-3">
+            <input type="date" class="form-control" id="dob" placeholder="mm/dd/yyyy" required>
+          </div>
+
+          <div class="input-group mb-3">
+            <input type="file" class="form-control" id="profile" aria-describedby="userProfile" aria-label="Upload" required>
+            <button class="btn btn-outline-secondary" type="button" id="upload">Upload</button>
+          </div>
+        
         <h6>Racing</h6>
-        <label>Type of Racing:
-            <select name="racingType" required>
+
+            <select class="form-select mb-3" aria-label="racingType" required>
+              <option selected disabled>Type of racing</option>
               <option value="drag">Drag</option>
               <option value="drift">Drift</option>
               <option value="circuit">Circuit</option>
               <option value="stance">Stance Show</option>
             </select>
-          </label><br>
         
-          <label>Experience Level:
-            <select name="experience" required>
+            <select class="form-select mb-3" name="experience" aria-label="experience" required>
+              <option selected disabled>Experience level</option>
               <option value="beginner">Beginner</option>
               <option value="intermediate">Intermediate</option>
               <option value="pro">Professional</option>
             </select>
-          </label><br>
-        
-          <label>Vehicle Make & Model: <input type="text" name="vehicle" required></label><br>
-          <label>Upload Vehicle Photo: <input type="file" name="vehiclePhoto"></label><br>
-        
-          <label>
-            <input type="checkbox" name="agreeRules" required>
-            I agree to the rules and terms.
-          </label><br>
-        
-          <button type="submit">Submit Application</button>
+          
+            <div class="mb-3">
+                <input type="text" class="form-control" id="vehicle-details" placeholder="Vehicle Make & Model" required>
+            </div>
+
+            <div class="input-group mb-3">
+                <input type="file" class="form-control" id="vehicle-photo" aria-describedby="vehicle-photo" aria-label="Upload" required>
+                <button class="btn btn-outline-secondary" type="button" id="upload">Upload</button>
+            </div>
+
+            <div class="form-check mb-3">
+                <input class="form-check-input" type="checkbox" value="" id="t&cs" required>
+                <label class="form-check-label" for="defaultCheck1">
+                  I agree to the <a href="#">rules and terms</a>
+                </label>
+            </div>
+
+            <button type="submit" class="btn btn-danger">Submit</button>
+
     </form>
 </div>
     
