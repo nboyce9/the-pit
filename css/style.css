@@ -45,7 +45,6 @@ body{
     border-radius: 6px;
     padding-left: 4px;
     
-
 }
 
 .btn-branding{
@@ -55,7 +54,6 @@ body{
     border-radius: 15px;
     text-decoration: none;
     margin:0 auto;
-    /* box-shadow:inset 0 10px 20px #3a3838; */
 
 }
 .count-down{
@@ -206,3 +204,6 @@ footer{
     box-shadow: 0 5px 10px var(--sunray);
     padding: 10px;
 }
+.racer{
+background: #0f0f0f;
+background: linear-gradient(210deg, var(--sunray) 50%, rgba(255, 255, 255, 1) 50%, rgb(255, 255, 255) 50%);}
