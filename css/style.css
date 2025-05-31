@@ -205,18 +205,26 @@ footer{
     padding: 10px;
 }
 .career-1{
-    padding: 15px;
-    background: #0f0f0f;
     background: linear-gradient(235deg, var(--sunray) 50%, rgba(255, 255, 255, 1) 50%, rgb(255, 255, 255) 50%);
 }
 
-.career-2{
-    padding: 15px;
-    background: #0f0f0f;
+.career-2{   
     background: linear-gradient(50deg, var(--sunray) 50%, rgba(255, 255, 255, 1) 50%, rgb(255, 255, 255) 50%);
 }
 .career-1 a, .career-2 a{
-    background-color: #000000;
-    margin: 0 auto;
-    display: inline-block;
+    /* background-color: #000000; */
+    margin: 0 auto; 
+
+}
+.career-1, .career-2{
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+.career-1 h6, .career-1 img,
+.career-2 h6, .career-2 img{
+    display: block;
+    margin-bottom: 8px;
+
 }
