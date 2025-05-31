@@ -204,6 +204,19 @@ footer{
     box-shadow: 0 5px 10px var(--sunray);
     padding: 10px;
 }
-.racer{
-background: #0f0f0f;
-background: linear-gradient(210deg, var(--sunray) 50%, rgba(255, 255, 255, 1) 50%, rgb(255, 255, 255) 50%);}
+.career-1{
+    padding: 15px;
+    background: #0f0f0f;
+    background: linear-gradient(235deg, var(--sunray) 50%, rgba(255, 255, 255, 1) 50%, rgb(255, 255, 255) 50%);
+}
+
+.career-2{
+    padding: 15px;
+    background: #0f0f0f;
+    background: linear-gradient(50deg, var(--sunray) 50%, rgba(255, 255, 255, 1) 50%, rgb(255, 255, 255) 50%);
+}
+.career-1 a, .career-2 a{
+    background-color: #000000;
+    margin: 0 auto;
+    display: inline-block;
+}
