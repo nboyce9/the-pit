@@ -228,3 +228,8 @@ footer{
     margin-bottom: 8px;
 
 }
+.form{
+    margin:auto 0;
+    display: flex;
+    justify-content: center;
+}
